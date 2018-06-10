@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<div class="container margin-top-30">
+
+  <div class="home row">
+      <div class="content col-lg-8">
+          <ul class="post-list">
+              {% for post in paginator.posts %}
+              <li class="post-list__item">
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <div class="">
+
+                              <span class="post-meta small">{{ post.date | date: "%b %-d, %Y" }}</span>
+                              <h2 class="h3 margin-top-0">
+                                  <a class="post-link" href="{{post.url}}">{{ post.title }}</a>
+                              </h2>
+
+                              <p>{{ post.excerpt }}</p>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+              {% endfor %}
+          </ul>
+
+          <nav>
+              <ul class="pager pagination-lg">
+                  {% if paginator.previous_page %}
+                  <li><a href="{{ paginator.previous_page_path }}">Newer</a></li>
+                  {% endif %}
+                  {% if paginator.next_page %}
+                  <li><a href="{{ paginator.next_page_path }}">Older</a></li>
+                  {% endif %}
+              </ul>
+          </nav>
+      </div>
+      <aside class="col-lg-4 hidden-md-down">
+          <div class="cta">
+              <h2 class="margin-top-0 h4">Follow</h2>
+              <p>If you would like to hear about new posts please follow me on Twitter.</p>
+              <ul class="margin-bottom-0">
+                  <li><a href="https://www.facebook.com/jonathanfieldingcom/">Facebook</a></li>
+                  <li><a href="https://twitter.com/jonthanfielding">Twitter</a></li>
+                  <li><a href="/feed.xml">RSS Feed</a></li>
+              </ul>
+          </div>
+
+          <!-- <div class="hiring">
+            <h2 class="h5 margin-top-0">Are you looking for your next role?</h2>
+            <p>I work as an Engineering Manager at Beamly where we are currently looking for both Frontend and Full Stack software engineers based in our London office.</p>
+            <a class="btn btn-primary btn-sm" href="https://thebeamlyagency.bamboohr.co.uk/jobs/view.php?id=63">Find out more</a>
+          </div> -->
+      </aside>
+
+  </div>
+</div>
