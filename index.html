@@ -13,7 +13,11 @@ layout: default
                   <div class="row">
                       <div class="col-lg-12">
                           <div class="">
-                              <p>{{ post.author }} wrote: </p>
+                            {% for author in site.authors %}
+                                {% if author.title == post.author %}
+                                    <p><a href="{{author.url}}">{{ post.author }}</a> wrote: </p>
+                                {% endif %}
+                            {% endfor %}
 
                               <h2 class="h3 margin-top-0">
                                   <a class="post-link" href="{{post.url}}">{{ post.title }}</a>
@@ -42,23 +46,5 @@ layout: default
               </ul>
           </nav>
       </div>
-      <aside class="col-lg-3 hidden-md-down">
-          <div class="cta">
-              <h2 class="margin-top-0 h4">Follow</h2>
-              <p>If you would like to hear about new posts please follow me on Twitter.</p>
-              <ul class="margin-bottom-0">
-                  <li><a href="https://www.facebook.com/jonathanfieldingcom/">Facebook</a></li>
-                  <li><a href="https://twitter.com/jonthanfielding">Twitter</a></li>
-                  <li><a href="/feed.xml">RSS Feed</a></li>
-              </ul>
-          </div>
-
-          <!-- <div class="hiring">
-            <h2 class="h5 margin-top-0">Are you looking for your next role?</h2>
-            <p>I work as an Engineering Manager at Beamly where we are currently looking for both Frontend and Full Stack software engineers based in our London office.</p>
-            <a class="btn btn-primary btn-sm" href="https://thebeamlyagency.bamboohr.co.uk/jobs/view.php?id=63">Find out more</a>
-          </div> -->
-      </aside>
-
   </div>
 </div>

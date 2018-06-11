@@ -1,7 +1,5 @@
 ---
 title: Jonathan Fielding
-layout: post
-permalink: /authors/jonathan-fielding/
+layout: author
+description: Jonathan is a web developer working at Beamly in London
 ---
-
-Jonathan is awesome

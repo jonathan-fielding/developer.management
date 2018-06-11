@@ -1,0 +1,70 @@
+---
+layout: default
+bodyclass: post
+---
+
+
+{% include header.html %}
+
+
+<section class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+          <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+          <p class="h4 margin-top-15">{{ page.description }}</p>
+          <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+          {{ content }}
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+<div class="container margin-top-30">
+  <div class="home row">
+      <div class="content col-lg-9">
+          <ul class="post-list">
+              {% for post in site.posts %}
+              <li class="post-list__item">
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <div class="">
+                              <p>{{ post.author }} wrote: </p>
+
+                              <h2 class="h3 margin-top-0">
+                                  <a class="post-link" href="{{post.url}}">{{ post.title }}</a>
+                              </h2>
+
+                              <div class="inline margin-top-10">
+                                <p>{{ post.date | date: "%b %-d, %Y" }}</p> - 
+                                {{ post.excerpt }}
+                              </div>
+                          </div>
+                        
+                      </div>
+                  </div>
+              </li>
+              {% endfor %}
+          </ul>
+      </div>
+
+  </div>
+</div>
