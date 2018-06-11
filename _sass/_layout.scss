@@ -199,3 +199,25 @@ pre {
         display: inline;
     }
 }
+
+
+.author-header {
+    margin-bottom: $spacing-unit;
+    padding-top: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+    color: $color-white;
+    background: $brand-primary;
+
+    &__img {
+        margin: 0 auto;
+    }
+
+    &__post-title {
+        margin-top: 0!important;
+    }
+
+    a {
+        color: #fff;
+    }
+}
