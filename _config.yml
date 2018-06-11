@@ -17,10 +17,14 @@ github_username:  jonathan-fielding
 permalink: /:categories/:title
 
 # Build settings
+collections:
+  authors:
+    output: true
+    
 markdown: kramdown
 sass:
         sass_dir: _sass
 
 paginate: 6
 paginate_path: "/page/:num/"
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
