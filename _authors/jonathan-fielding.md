@@ -1,5 +1,5 @@
 ---
 title: Jonathan Fielding
 layout: author
-description: Jonathan is a web developer working at Beamly in London
+description: Jonathan is a engineering manager working at Beamly in London
 ---
