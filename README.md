@@ -1,4 +1,5 @@
-# webprogressions
-
-This is the web site for the web progressions conference. See https://webprogressions.org for more details.
 # developer.management
+
+## Contributing
+
+If you have an idea for a post please create an issue so it can be discussed. 

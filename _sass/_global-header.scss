@@ -4,6 +4,10 @@
     padding: 35px 0;
     border-bottom: 1px solid #666;
 
+  .post & {
+    padding: 15px 0;
+  }
+
   &--title {
       margin: 0!important;
       float: left;
