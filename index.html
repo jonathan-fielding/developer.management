@@ -6,17 +6,18 @@ layout: default
 
 <div class="container margin-top-30">
   <div class="home row">
-      <div class="content col-lg-9">
+      <div class="content col-lg-12">
           <ul class="post-list">
-              {% for post in paginator.posts %}
               <li class="post-list__item">
                   <div class="row">
-                      <div class="col-lg-12">
-                        {% include post.html %}
-                      </div>
+
+                        {% for post in paginator.posts %}
+                            <div class="col-lg-6">
+                                {% include post.html %}
+                            </div>
+                        {% endfor %}
                   </div>
               </li>
-              {% endfor %}
           </ul>
 
           <nav>
