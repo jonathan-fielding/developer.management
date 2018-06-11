@@ -5,7 +5,7 @@ date: 2018-06-10T08:57:18+00:00
 author: Jonathan Fielding
 layout: post
 guid: http://www.jonathanfielding.com/?p=29
-permalink: /new-site/
+permalink: /managing-someone-new/
 dsq_thread_id:
   - 2729964973
 categories:
