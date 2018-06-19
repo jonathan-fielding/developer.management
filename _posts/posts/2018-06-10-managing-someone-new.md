@@ -26,19 +26,13 @@ When I first take on the management of a new employee I like to spend some time 
 ### Questions to ask in the one to one
 
 As a starting point I will ask them a set of questions, (note: I did not write these questions, I only wrote the explanations and I don't even know where they originally came from since they were passed down to me by another manager). 
-
-
-
-
 #### When do you feel most productive?
 
-
-
-
+This question aims to help you to understand what time of day they feel they can do their best work. This is important as different people are more product 
 
 #### When do you feel most low?
 
-
+This 
 
 
 
