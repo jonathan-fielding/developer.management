@@ -6,7 +6,7 @@ author: Jonathan Fielding
 layout: post
 guid: http://www.jonathanfielding.com/?p=29
 permalink: /first-one-to-one-with-a-new-employee/
-time_to_read: 5 minutes
+time_to_read: 7 minutes
 dsq_thread_id:
   - 2729964973
 categories:
@@ -33,9 +33,13 @@ Having arrived at our location, grabbed a coffee (or in my case a water) and a s
 
 Unfortunately one to ones can sometimes be a foreign concept as not all managers practice them so I usually will ask them if they have had one to ones with their manager in the past. If the answer is they havent had them previously I will explain to them the reason we have them and the benefits they bring.
 
+Having explained what one to ones are I will then discuss the frequency that we have one to one's and also highlight that if they have any pressing things that can't wait until our scheduled one to one that they can still grab me at any time.
+
 ## Initial questions to ask in the one to one
 
-Having introduced one to ones to the developer, I then take time to ask them some questions that will help me to learn more about them. The questions I use are as follows:
+Having introduced one to ones to the developer, the next part of my intiial one to one aims to help me to learn more about them. As a manager I need to understand how they like to receive feedback, how they like their successes to be recognised, what makes them feel good about themselves and what makes them feel low so that I can properly support them.
+
+To enable me to find out this information I will ask them the following questions:
 
 * When do you feel most productive?
 * When do you feel most low?
@@ -55,22 +59,24 @@ Having introduced one to ones to the developer, I then take time to ask them som
 
 These questions were designed to give managers insight into someone they manage and I find them to be a really valuable way to find out more about someone I am managing for the first time.
 
-In particular the questions around how the developer likes to receive feedback are particularly important as I want to be able to give them feedback in a way that is productive and doesn't make them feel uncomfortable.
+All these questions serve a purpose and give me a good starting point when starting to manage the developer answering them. They can also provide me with some actions to take away and work on to help them.
 
 ## Other things to talk about
 
-In the remaining time I would want to share more infomation about the engineering team and their development within it to help them understand what progression they can expect at Beamly. As part of this I will take them through the Engineering Career Ladder so they can properly understand the different levels, roles and responsibilities in the Engineering team.
+In the remaining time I t share more infomation about the engineering team and their own personal development within it to help them understand what progression they can expect at Beamly. As part of this I will take them through the Engineering Career Ladder so they can properly understand the different levels, roles and responsibilities in the Engineering team.
 
-Finally, as the new employee will have also have just gone though both our recruitment and on boarding processes I will use this opportunity to get feedback on the process.
+It is also useful at this point to get some feedback from the developer on how they found the recruitmen process. As the new employee will have also have just gone though both our recruitment and on boarding processes it can be incredibly useful to hear their insights into how it went so if there are necessary improvements we can make them.
 
 ## Wrapping up the one to one
 
-At the end of the initial one to one I will open my calendar and we will agree on a time that we can meet fortnightly to have our regular one to one. When putting this in the diary I will try to find a time that is unlikely to have conflicts with other meetings in the future.
+At the end of the initial one to one I will open my calendar and we will agree on a time that we can meet fortnightly to have our regular one to one. When putting this in the diary I will try to find a time that is unlikely to have conflicts with other meetings in the future. 
 
-If they have raised any issues when we were talking I will take them away to resolve.
+Finally I will ask them if there is any additional questions they have before we go back to the office.
 
 ## Summary
 
-The initial one to one is an opportunity to set up a good working relationship with your new developer. It allows you to set expectations of what they should be able to expect from you and what you expect from them. 
+The initial one to one is an opportunity to set up a good working relationship with your new developer. It allows you to set expectations of what they should be able to expect from you and what you expect from them. It gives you the opportunity to learn more about how they like to work so that you can be an effective manager.
 
-Finally I wanted to point out that the questions I ask were originally given to me by Joel Overton who managed me when he was at Beamly. I believe these were passed down to him from his manager so I am not sure where they originally come from.
+In this post I have focused on what I do in my intiial one to ones, there is a lot of different ways you could approach these one to ones and I just wanted to share mine with the hope of helping others, especially those who are new to engineering management.
+
+Finally I wanted to point out that the questions I mentioned were originally given to me by Joel Overton who managed me when he was at Beamly. I don't know the original source of these questions so unfortunately I am unable to credit them back to their source.
