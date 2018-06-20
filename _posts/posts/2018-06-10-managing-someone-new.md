@@ -1,43 +1,28 @@
 ---
 id: 2
-title: Managing a new employee
+title: Your first one to one with a new employee
 date: 2018-06-10T08:57:18+00:00
 author: Jonathan Fielding
 layout: post
 guid: http://www.jonathanfielding.com/?p=29
-permalink: /managing-a-new-employee/
+permalink: /first-one-to-one-with-a-new-employee/
 dsq_thread_id:
   - 2729964973
 categories:
   - Line Management
 ---
 
-As a manager one of the things that you will expeirence is taking on the management of a developer who has recently joined the company.
-
-When a new developer joins 
-
-For a developer joining a company they not only have to go through an onboarding with HR they are bombarded with information about the way the company does things. Everything from learning about how the company does source control right though to how they deploy code to production.
-
-When you start managing someone new you will want to quickly get to a point where you know the best way in which to give them feedback. The best time in which you can do this is in an intiial one to one.
-
-## Having your first one to one
+As a manager one of the things that you will experience is taking on the management of a developer who has recently joined the company. As part of this it is important that you have an initial one to one with them to help you get to know how they like to work and how they like to receive feedback.
 
 ![alt text](/images/meeting.jpg "Photo of two people meeting")
 
-The first one to one with someone you are managing for the first time is incredibly important. It often is the first opportunity you will have to discuss with the employee how they like to work with their manager.
+This first one to one with someone you are managing for the first time is incredibly important and you should use it to find out more about your new developer.
 
-It is important to recognise that all your reportees are different and your management style should adjust based on this. To do this you need to be able to answer the following questions:
-
-<ul>
-  <li>How senior is the member of staff?</li>
-</ul>
-
-When I first take on the management of a new employee I like to spend some time getting to understand how they like to work with their manager. I don't believe in having a one size fits all management style and I want to be able to adapt how I work with each person that reports to me based on how they want to be managed. I want to give the engineers that report to me the best possible support and guidance I can in a way that suits them.
-
+When I first take on the management of a new developer I like to spend some time getting to understand how they like to work with their manager. I don't believe in having a one size fits all management style and I want to be able to adapt how I work with each person that reports to me based on how they want to be managed. I want to give the engineers that report to me the best possible support and guidance I can in a way that suits them.
 
 ### Initial questions to ask in the one to one
 
-As a starting point I will ask them the following set of questions:
+One of the ways in which I get to know a new developer who I am managing is to ask them the following set of set of questions:
 
 * When do you feel most productive?
 * When do you feel most low?
@@ -55,27 +40,25 @@ As a starting point I will ask them the following set of questions:
 * What is the biggest gripe you have with (Company Name)?
 * What is the biggest opportunity you see for yourself?
 
-The purpose of these questions is to help me understand more about them and how they like to be managed. In particular the questions arround feedback will ensure I am able to give them feedback in the most effective way for them.
+These questions were designed to give managers insight into someone they manage and I find them to be a really valuable way to find out more about someone I am managing for the first time.
+
+In particular the questions arround how the developer likes to receive feedback are particularly important as I want to be able to give them feedback in a way that is productive and doesnt make them feel uncomfortable.
 
 ### Other things to talk about
 
-Aside from going through these questions I also will aim to talk about a number of other things depending on the individual.
+In the remaining time I would want to share more infomation about the engineering team and their development within it to help them understand what progression they can expect at Beamly. As part of this I will take them through the Engineering Career Ladder so they can properly understand the different levels, roles and responsibilities in the Engineering team.
 
-If the employee is new to the company I will use the remaining time to talk a bit more about the company and to take the through the Engineeering carrer ladder. During this I will explain what it is and how it can benefit them.
+Finaly, as the new employee will have also have just gone though both our recruitment and on boarding processes I will use this opportunity to get feedback on the process.
 
-Finaly, as the new employee will have also have just gone though both our recruitment and on boarding processes I will use this opportunity to get feedback on the process. 
- 
-
-## After the one to one
+## Wrapping up the one to one
 
 At the end of the initial one to one I will open my calendar and we will agree on a time that we can meet fortnightly to have our regular one to one. When putting this in the diary I will try to find a time that is unlikely to have conflicts with other meetings in the future.
 
-If they have raised any issues when we were talking 
+If they have raised any issues when we were talking I will take them away to resolve.
 
-## Checking in
+## Summary
 
-At the end of their first week you should put in a 15 minute meeting to check in with them about how things have gone.
+The initial one to one is an opportunity to setup a good working relationship with your new developer. It allows you to set expectations of what they should be able to expect from you and what you expect from them. 
 
-## Summary
 
-I intend to write a seperate post in the future on how to run the first one to one with someone who has already been with the company for a long time.
+Finally I wanted to point out that the questions I ask were originally given to me by Joel Overton who managed me when he was at Beamly. I believe these were passed down to him from his manager so I am not sure where they originally come from.
