@@ -42,13 +42,13 @@ One of the ways in which I get to know a new developer who I am managing is to a
 
 These questions were designed to give managers insight into someone they manage and I find them to be a really valuable way to find out more about someone I am managing for the first time.
 
-In particular the questions arround how the developer likes to receive feedback are particularly important as I want to be able to give them feedback in a way that is productive and doesnt make them feel uncomfortable.
+In particular the questions around how the developer likes to receive feedback are particularly important as I want to be able to give them feedback in a way that is productive and doesn't make them feel uncomfortable.
 
 ### Other things to talk about
 
 In the remaining time I would want to share more infomation about the engineering team and their development within it to help them understand what progression they can expect at Beamly. As part of this I will take them through the Engineering Career Ladder so they can properly understand the different levels, roles and responsibilities in the Engineering team.
 
-Finaly, as the new employee will have also have just gone though both our recruitment and on boarding processes I will use this opportunity to get feedback on the process.
+Finally, as the new employee will have also have just gone though both our recruitment and on boarding processes I will use this opportunity to get feedback on the process.
 
 ## Wrapping up the one to one
 
@@ -58,7 +58,6 @@ If they have raised any issues when we were talking I will take them away to res
 
 ## Summary
 
-The initial one to one is an opportunity to setup a good working relationship with your new developer. It allows you to set expectations of what they should be able to expect from you and what you expect from them. 
-
+The initial one to one is an opportunity to set up a good working relationship with your new developer. It allows you to set expectations of what they should be able to expect from you and what you expect from them. 
 
 Finally I wanted to point out that the questions I ask were originally given to me by Joel Overton who managed me when he was at Beamly. I believe these were passed down to him from his manager so I am not sure where they originally come from.
