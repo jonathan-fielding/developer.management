@@ -6,6 +6,7 @@ author: Jonathan Fielding
 layout: post
 guid: http://www.jonathanfielding.com/?p=29
 permalink: /first-one-to-one-with-a-new-employee/
+time_to_read: 5 minutes
 dsq_thread_id:
   - 2729964973
 categories:

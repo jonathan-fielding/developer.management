@@ -26,6 +26,9 @@ bodyclass: post
                 {% endfor %}
               </span>
             {% endif %}
+            {% if page.time_to_read %}
+              <span>- Estimated reading time: {{page.time_to_read}}</span>
+            {% endif %}
           </p>
 
           <div class="share">
