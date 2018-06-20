@@ -4,7 +4,6 @@ title: Your first one to one with a new employee
 date: 2018-06-10T08:57:18+00:00
 author: Jonathan Fielding
 layout: post
-guid: http://www.jonathanfielding.com/?p=29
 permalink: /first-one-to-one-with-a-new-employee/
 time_to_read: 7 minutes
 dsq_thread_id:
