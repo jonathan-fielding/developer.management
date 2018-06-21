@@ -1,7 +1,7 @@
 ---
 id: 2
 title: Your first one to one with a new employee
-date: 2018-06-10T08:57:18+00:00
+date: 2018-06-21T08:57:18+00:00
 author: Jonathan Fielding
 layout: post
 permalink: /first-one-to-one-with-a-new-employee/
