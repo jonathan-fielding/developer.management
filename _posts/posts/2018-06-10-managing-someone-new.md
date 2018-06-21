@@ -62,7 +62,7 @@ All these questions serve a purpose and give me a good starting point when start
 
 ## Other things to talk about
 
-In the remaining time I t share more information about the engineering team and their own personal development within it to help them understand what progression they can expect at Beamly. As part of this I will take them through the Engineering Career Ladder so they can properly understand the different levels, roles and responsibilities in the Engineering team.
+In the remaining time I share more information about the engineering team and their own personal development within it to help them understand what progression they can expect at the company. As part of this I will take them through the Engineering Career Ladder so they can properly understand the different levels, roles and responsibilities in the Engineering team.
 
 It is also useful at this point to get some feedback from the developer on how they found the recruitment process. As the new employee will have also have just gone though both our recruitment and on boarding processes it can be incredibly useful to hear their insights into how it went so if there are necessary improvements we can make them.
 
