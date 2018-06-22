@@ -6,8 +6,6 @@ author: Jonathan Fielding
 layout: post
 permalink: /first-one-to-one-with-a-new-employee/
 time_to_read: 7 minutes
-dsq_thread_id:
-  - 2729964973
 categories:
   - Line Management
 ---
