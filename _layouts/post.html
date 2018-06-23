@@ -1,0 +1,79 @@
+---
+layout: default
+bodyclass: post
+---
+
+
+{% include header.html %}
+
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+          <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+          <p class="h4 margin-top-15">{{ page.description }}</p>
+          <p class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+            {% if page.author %}
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                {% for author in site.authors %}
+                    {% if author.title == page.author %}
+                    - <span itemprop="name"><a href="{{author.url}}">{{ page.author }}</a></span>
+                    {% endif %}
+                {% endfor %}
+              </span>
+            {% endif %}
+            {% if page.time_to_read %}
+              <span>- Estimated reading time: {{page.time_to_read}}</span>
+            {% endif %}
+          </p>
+<!-- 
+          <div class="share">
+            <span class='st__large' displayText=''></span>
+            <span class='st_facebook_large' displayText='Facebook'></span>
+            <span class='st_linkedin_large' displayText='LinkedIn'></span>
+            <span class='st_twitter_large' displayText='Tweet'></span>
+            <span class='st_googleplus_large' displayText='Google +'></span>
+            <span class='st_email_large' displayText='Email'></span>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+          {{ content }}
+
+          <div id="disqus_thread"></div>
+          <script>
+
+          /**
+          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+          /*
+          var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+          */
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://developer-management.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</article>

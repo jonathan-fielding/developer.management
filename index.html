@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<div class="container margin-top-30">
+  <div class="home row">
+      <div class="content col-lg-12">
+          <ul class="post-list">
+              <li class="post-list__item">
+                  <div class="row">
+
+                        {% for post in paginator.posts %}
+                            <div class="col-lg-6">
+                                {% include post.html %}
+                            </div>
+                        {% endfor %}
+                  </div>
+              </li>
+          </ul>
+
+          <nav>
+              <ul class="pager pagination-lg">
+                  {% if paginator.previous_page %}
+                  <li><a href="{{ paginator.previous_page_path }}">Newer</a></li>
+                  {% endif %}
+                  {% if paginator.next_page %}
+                  <li><a href="{{ paginator.next_page_path }}">Older</a></li>
+                  {% endif %}
+              </ul>
+          </nav>
+      </div>
+  </div>
+</div>

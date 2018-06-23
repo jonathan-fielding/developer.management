@@ -1,0 +1,29 @@
+.global-header {
+    background: $brand-primary;
+    overflow: auto;
+    padding: 35px 0;
+    border-bottom: 1px solid #666;
+
+  .post & {
+    padding: 15px 0;
+  }
+
+  &--title {
+      margin: 0!important;
+      float: left;
+      font-weight:normal;
+
+      a {
+        color: $color-white;
+      }
+  }
+
+  &--search {
+      float: right;
+      color: $color-white;
+
+      &:hover, &:visited, &:focus {
+        color: $color-white;
+      }
+  }
+}

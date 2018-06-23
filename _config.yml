@@ -1,0 +1,32 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Developer.management
+email: j.fielding@me.com
+description: > # this means to ignore newlines until "baseurl:"
+  Developer Management is my new blog focused on being a manager in the software engineering space. I will be posting about different areas of being a manager including recruitment, people management and stakeholder management.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.jonathanfielding.com" # the base hostname & protocol for your site
+twitter_username: jonthanfielding
+github_username:  jonathan-fielding
+permalink: /:categories/:title
+
+# Build settings
+collections:
+  authors:
+    output: true
+    
+markdown: kramdown
+sass:
+        sass_dir: _sass
+
+paginate: 6
+paginate_path: "/page/:num/"
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap

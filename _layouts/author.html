@@ -1,0 +1,49 @@
+---
+layout: default
+bodyclass: post
+---
+
+
+{% include header.html %}
+
+
+<section class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="author-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4 col-lg-2">
+          <img src="https://pbs.twimg.com/profile_images/605081943999397889/HopI5nMr_400x400.jpg" class="author-header__img" alt="{{ page.author }}">
+        </div>
+        <div class="col-xs-8 col-lg-10">
+          <h1 class="author-header__post-title h2" itemprop="name headline">{{ page.title }}</h1>
+          <p class="h4 margin-top-15">{{ page.description }}</p>
+          <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+</section>
+
+
+
+<div class="container margin-top-30">
+  <div class="home row">
+      <div class="content col-lg-12">
+          <ul class="post-list">
+              <li class="post-list__item">
+                  <div class="row">
+                    {% for post in site.posts %}
+                      <div class="col-lg-6">
+                        {% include post.html %}
+                      </div>
+
+                    {% endfor %}
+                  </div>
+              </li>
+          </ul>
+      </div>
+
+  </div>
+</div>

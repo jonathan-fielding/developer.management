@@ -1,0 +1,15 @@
+<article class="post">
+    {% for author in site.authors %}
+        {% if author.title == post.author %}
+            <p><a href="{{author.url}}">{{ post.author }}</a> wrote: </p>
+        {% endif %}
+    {% endfor %}
+
+    <h2 class="h3 margin-top-0">
+        <a class="post-link" href="{{post.url}}">{{ post.title }}</a>
+    </h2>
+
+    <div class="inline margin-top-10">
+        <p>{{ post.date | date: "%b %-d, %Y" }}</p> - {{ post.excerpt }}
+    </div>
+</article>
