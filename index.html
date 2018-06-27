@@ -5,19 +5,15 @@ layout: default
 {% include header.html %}
 
 <div class="container margin-top-30">
-  <div class="home row">
-      <div class="content col-lg-12">
-          <ul class="post-list">
-              <li class="post-list__item">
-                  <div class="row">
-
-                        {% for post in paginator.posts %}
-                            <div class="col-lg-6">
-                                {% include post.html %}
-                            </div>
-                        {% endfor %}
-                  </div>
+  <div class="home">
+      <div class="content">
+          <ul class="post-list row">
+            {% for post in paginator.posts %}
+              <li class="post-list__item col-lg-6">
+                    {% include post.html %}
               </li>
+
+              {% endfor %}
           </ul>
 
           <nav>
